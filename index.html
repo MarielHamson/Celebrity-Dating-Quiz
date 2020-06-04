@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Celebrity Crush Quiz</title>
+    <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+    <script src="JS/jquery-3.5.1.min.js"></script>
+    <script src="JS/scripts.js"></script>
+  </head>
+  <body>
+    <body>
+      <div class="container">
+        <h1>Celebrity Crush Quiz</h1>
+
+        <p>To match you with a celebrity, please answer the following questions <b>HONESTLY</b> </p>
+
+        <form id="quiz">
+          <label for="toenail-length">How long are your toenails?</label>
+          <input id="toenail-length" type="text">
+        </div>
+          <label for="hair-color">What color is your hair?</label>
+          <select id="hair-color">
+            <option value="1">Blonde</option>
+            <option value="2">Brown</option>
+            <option value="3">Black</option>
+            <option value="4">Red</option>
+            <option value="5">Other</option>
+          </select>
+
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="early" checked>
+              Before 6am
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="normal-time">
+              Between 6am and 10am
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="time" value="late">
+              After 10am
+            </label>
+          </div>
+
+          <button type="submit" class="btn">Submit my answers</button>
+        </form>
+
+        <div id="result">
+          <p>You should be with <span id="celeb"></span> 
+          <br>
+          <img src= "xx" alt="image of celeb">
+        </p>
+        </div>
+      </div>
+    </body>
+  </html>
